@@ -1,78 +1,173 @@
 * {
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .bar-topo {
-    background-color: #E0999e;  
-    width: 100%;
-    height: 35px;
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-    border-bottom: 3px solid #FFF;
+  background-color: #e0999e;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #fff;
 }
 
 .bar-user-container {
-    background-color: #fdfdc8;  
-    width: 100%;
-    height: 40px;
-    display: flex;    
-    align-items: center;
-    justify-content: center; 
+  background-color: #fdfdc8;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bar-user {  
-    width: 90%;
-    height: 40px;
-    display: flex;    
-    align-items: center;
-    justify-content: space-between;  
+.bar-user {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 p {
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: 100;
-    color: #FFF;
-    letter-spacing: 3px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
 }
 
 .menu {
-    background-color: #c4e1de;
-    max-width: 100%;
-    height: 250px;
-    margin: auto;
-    border-top: 3px solid #FFF;   
+  background-color: #c4e1de;
+  max-width: 100%;
+  height: 250px;
+  margin: auto;
+  border-top: 3px solid #fff;
 }
 
 .menu-content {
-    max-width: 70%;
-    height: 250px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  max-width: 90%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 55px;
 }
 
-
 ul {
-    display: flex;
-    list-style: none;
-    gap: 25px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
 
 li {
-    font-family: sans-serif;
-    font-size: 22px;
-    color: #FFF;
-    padding: 2px;
-    border-radius: 5px;
-    cursor: pointer;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 li:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .menu-content {
+    flex-direction: column;
+  }
+
+  li {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.products-best-seller-title p {
+  color: #e0999e;
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.products-best-seller {
+  width: 90%;
+  height: 800px;
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-best-seller {
+  width: 350px;
+  border-radius: 15px;
+  border: dashed 2px #e0999e;
+}
+
+.container-best-seller:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.photo-1 {
+  background-image: url(Imagens/kit-abacate.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-2 {
+  background-image: url(Imagens/kit-milk.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-3 {
+  background-image: url(Imagens/kit-abacate-rosa.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-4 {
+  background-image: url(Imagens/sapatinho-abacate.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-5 {
+  background-image: url(Imagens/sapatinho-milk.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-6 {
+  background-image: url(Imagens/sapatinho-abacate-rosa.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
