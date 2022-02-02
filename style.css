@@ -75,13 +75,14 @@ ul {
   gap: 30px;
 }
 
-li {
+li a {
   font-family: sans-serif;
   font-size: 22px;
   color: #fff;
   padding: 2px;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 li:hover {
