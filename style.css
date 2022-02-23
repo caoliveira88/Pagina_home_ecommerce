@@ -61,7 +61,7 @@ p {
 }
 
 .menu-content {
-  max-width: 90%;
+  width: 90%;
   height: 250px;
   margin: auto;
   display: flex;
@@ -105,22 +105,25 @@ li:hover {
 }
 
 .products-best-seller {
+  max-width: 1500px;
   width: 90%;
-  height: 800px;
   display: flex;
-  gap: 100px;
   flex-direction: column;
+  justify-content: center;
 }
 
 .container {
   width: 100%;
+  margin: auto;
   height: 350px;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 100px;
 }
 
 .container-best-seller {
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   border-radius: 15px;
   border: dashed 2px #e0999e;
   cursor: pointer;
@@ -132,42 +135,42 @@ li:hover {
 }
 .photo-1 {
   background-image: url(Imagens/kit-abacate.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo-2 {
   background-image: url(Imagens/kit-milk.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo-3 {
   background-image: url(Imagens/kit-abacate-rosa.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo-4 {
   background-image: url(Imagens/sapatinho-abacate.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo-5 {
   background-image: url(Imagens/sapatinho-milk.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo-6 {
   background-image: url(Imagens/sapatinho-abacate-rosa.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -192,6 +195,32 @@ li:hover {
   letter-spacing: 3px;
 }
 
+@media (max-width: 1310px) {
+  .container-best-seller {
+    max-width: 280px;
+    height: 280px;
+  }
+  .container {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .container-best-seller {
+    max-width: 210px;
+    height: 210px;
+  }
+  li a {
+    font-size: 16px;
+  }
+
+  .container {
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   .menu-content {
     flex-direction: column;
@@ -207,5 +236,17 @@ li:hover {
 
   p {
     text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .container-best-seller {
+    max-width: 400px;
+    height: 400px;
+    margin-bottom: 180px;
   }
 }
