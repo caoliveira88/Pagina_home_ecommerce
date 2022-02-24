@@ -1,4 +1,4 @@
-## Página - Lado-Dicá
+## Página - Lado-Dicá 💜
 
 Desenvolvida a partir da necessidade de um pequeno negócio em expandir suas vendas, a página **Lado-Dicá** expoem seu produtos com design do layout pensando em atrair o cliente pelo aconchego que seu elementos e cores transmitem!
 
