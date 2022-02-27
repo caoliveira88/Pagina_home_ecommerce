@@ -15,5 +15,8 @@ Desenvolvida a partir da necessidade de um pequeno negócio em expandir suas ven
 - ``VS Code IDEA``
 - ``Responsividade``
  
- 
+## Deploy 
+
+https://caoliveira88.github.io/Loja_LadoDica/
+
  
