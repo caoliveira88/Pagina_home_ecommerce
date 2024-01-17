@@ -1,20 +1,17 @@
-## Página - Lado-Dicá 💜
+## Página Home E-commerce Lado-Dicá 💜
 
-Desenvolvida a partir da necessidade de um pequeno negócio em expandir suas vendas, a página **Lado-Dicá** expoem seu produtos com design do layout pensando em atrair o cliente pelo aconchego que seu elementos e cores transmitem!
+Desenvolvida a partir da necessidade de um pequeno negócio em expandir suas vendas, a Página Lado-Dicá é um aconchego, expondo seus produtos em um layout pensado para atrair os clientes.</br> 
+Cada elemento e cor foram escolhidos para transmitir não apenas produtos, mas uma experiência de compras única, onde o conforto é a palavra-chave.
 
 ![pagina home lado dica](https://user-images.githubusercontent.com/85043558/155429395-af95694e-d6ad-4c9c-b383-620b44180b9e.jpg)
  
- ## Implementações futuras
  
- Atualmente a página possue responsividade e as implementações se aplicam a inclusão de novas páginas e link entre si, para a jornada completa de compra.
+ ## Tool kit
  
- ## Tecnicas e ferramentas utilizadas
- 
-- ``HTML``
-- ``CSS``
-- ``VS Code IDEA``
-- ``Responsividade``
- 
+- ``HTML:`` Responsável pela estruturação da página
+- ``CSS:``  Aplicado para estilizar, dar design ao layout responsivo.
+- ``VS Code IDEA:`` O ambiente de desenvolvimento integrado que proporcionou uma codificação eficiente.
+
 ## Deploy 
 
 https://caoliveira88.github.io/Loja_LadoDica/
