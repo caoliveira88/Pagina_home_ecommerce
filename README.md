@@ -14,6 +14,6 @@ Cada elemento e cor foram escolhidos para transmitir não apenas produtos, mas u
 
 ## Deploy 
 
-https://caoliveira88.github.io/Loja_LadoDica/
+Para visualizar o resultado final, acesse [Página LadoDicá](https://caoliveira88.github.io/Pagina_home_ecommerce/)
 
  
